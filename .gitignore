@@ -1,0 +1,7 @@
+node_modules/
+dist/
+venv/
+__pycache__/
+*.pyc
+digital_twin.db
+.DS_Store
