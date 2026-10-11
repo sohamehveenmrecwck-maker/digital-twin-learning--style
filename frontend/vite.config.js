@@ -1,9 +1,9 @@
 import { defineConfig } from "vite";
-import React from "@vitejs/plugin-react";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  plugins: [React()],
-  base: "/digital-twin-learning--style/",
+  plugins: [react()],
+  base: "/",
   server: {
     port: 5173,
   },
